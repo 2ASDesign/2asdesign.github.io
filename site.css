@@ -100,7 +100,13 @@ html[lang="ar"] .svc .who{font-style:normal}
 /* work */
 .work{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:20px}
 .work figure{margin:0;display:grid;gap:10px;min-width:0}
-.work figure img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/5}
+.work figure img{width:100%;height:auto;object-fit:cover;aspect-ratio:4/5}
+.c12{grid-column:span 12}
+.brand small{white-space:nowrap}
+@media (max-width:520px){.brand b{font-size:21px}.brand small{font-size:7.5px;letter-spacing:.24em}.brand img{height:34px}}
+.partner .plogo{height:72px;display:flex;align-items:center;margin-bottom:4px}
+.partner .plogo img{max-height:64px;width:auto;max-width:220px;object-fit:contain}
+.partner .plogo .wordmark{font-family:var(--f-display);font-size:26px;font-weight:600;letter-spacing:.06em;color:var(--charcoal)}
 .work .w-wide img{aspect-ratio:16/10}
 .work figcaption{font-size:13px;color:var(--grey);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .work figcaption b{color:var(--charcoal);font-weight:600;letter-spacing:.04em}
