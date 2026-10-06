@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Start your brief · 2AS Design Consultancy</title>
+<meta name="description" content="Tell 2AS about your project in a few minutes. We recommend the right service and prepare a proposal.">
+<link rel="icon" href="assets/logo/2AS_mark_charcoal.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@400;500;600&family=El+Messiri:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="brief">
+<header id="site-head"></header>
+<main id="main">
+
+<section class="page-hero" style="padding-bottom:32px">
+  <div class="wrap">
+    <div class="label"><span lang="en">Project brief · about 5 minutes</span><span lang="ar">استبيان المشروع · حوالي 5 دقائق</span></div>
+    <h1><span lang="en">Tell us about your project.</span><span lang="ar">أخبرنا عن مشروعك.</span></h1>
+    <p class="lead"><span lang="en">Your answers help us recommend the right service and prepare an accurate proposal. Nothing is shared outside 2AS.</span><span lang="ar">تساعدنا إجاباتك على ترشيح الخدمة الأنسب وإعداد عرض دقيق، ولا تُشارك خارج 2AS.</span></p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap brief">
+    <nav aria-label="Brief steps"><ol class="steps-nav" id="steps-nav">
+      <li data-s="1"><span class="n">1</span><span class="lbl"><span lang="en">You</span><span lang="ar">بياناتك</span></span></li>
+      <li data-s="2"><span class="n">2</span><span class="lbl"><span lang="en">The project</span><span lang="ar">المشروع</span></span></li>
+      <li data-s="3"><span class="n">3</span><span class="lbl"><span lang="en">What you need</span><span lang="ar">ما تحتاجه</span></span></li>
+      <li data-s="4"><span class="n">4</span><span class="lbl"><span lang="en">Life &amp; style</span><span lang="ar">الحياة والطابع</span></span></li>
+      <li data-s="5"><span class="n">5</span><span class="lbl"><span lang="en">Budget &amp; timing</span><span lang="ar">الميزانية والتوقيت</span></span></li>
+      <li data-s="6"><span class="n">6</span><span class="lbl"><span lang="en">Review &amp; send</span><span lang="ar">المراجعة والإرسال</span></span></li>
+    </ol></nav>
+
+    <form class="panel" id="brief-form" novalidate>
+      <!-- STEP 1 -->
+      <fieldset data-step="1">
+        <legend><span lang="en">About you</span><span lang="ar">بياناتك</span></legend>
+        <div class="row2">
+          <label class="f" for="name"><span><span lang="en">Full name</span><span lang="ar">الاسم بالكامل</span> *</span><input id="name" name="name" type="text" autocomplete="name" required></label>
+          <label class="f" for="email"><span><span lang="en">Email</span><span lang="ar">البريد الإلكتروني</span> *</span><input id="email" name="email" type="email" autocomplete="email" required></label>
+        </div>
+        <div class="row2">
+          <label class="f" for="phone"><span><span lang="en">WhatsApp number (with country code)</span><span lang="ar">رقم واتساب (مع كود الدولة)</span> *</span><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+966 …" required></label>
+          <label class="f" for="country"><span><span lang="en">You live in</span><span lang="ar">مكان إقامتك</span> *</span>
+            <select id="country" name="country" required>
+              <option value=""></option><option>Saudi Arabia</option><option>United Arab Emirates</option><option>Qatar</option><option>Kuwait</option><option>Bahrain</option><option>Oman</option><option>Egypt</option><option>Other</option>
+            </select></label>
+        </div>
+      </fieldset>
+
+      <!-- STEP 2 -->
+      <fieldset data-step="2" hidden>
+        <legend><span lang="en">The project</span><span lang="ar">المشروع</span></legend>
+        <div class="f"><span><span lang="en">Property type</span><span lang="ar">نوع العقار</span> *</span></div>
+        <div class="opts" role="radiogroup">
+          <label class="opt"><input type="radio" name="ptype" value="Apartment" required><span><span lang="en">Apartment</span><span lang="ar">شقة</span></span></label>
+          <label class="opt"><input type="radio" name="ptype" value="Duplex / penthouse"><span><span lang="en">Duplex / penthouse</span><span lang="ar">دوبلكس / بنتهاوس</span></span></label>
+          <label class="opt"><input type="radio" name="ptype" value="Villa / townhouse"><span><span lang="en">Villa / townhouse</span><span lang="ar">فيلا / تاون هاوس</span></span></label>
+          <label class="opt"><input type="radio" name="ptype" value="Residential building"><span><span lang="en">Residential building</span><span lang="ar">عمارة سكنية</span></span></label>
+          <label class="opt"><input type="radio" name="ptype" value="Serviced apartments / hospitality"><span><span lang="en">Serviced apartments / hospitality</span><span lang="ar">شقق فندقية / ضيافة</span></span></label>
+          <label class="opt"><input type="radio" name="ptype" value="Commercial / office"><span><span lang="en">Commercial / office</span><span lang="ar">تجاري / مكتب</span></span></label>
+          <label class="opt"><input type="radio" name="ptype" value="Outdoor / rooftop only"><span><span lang="en">Outdoor / rooftop only</span><span lang="ar">مساحة خارجية / سطح فقط</span></span></label>
+        </div>
+        <div class="f" style="margin-top:8px"><span><span lang="en">Where is the project today?</span><span lang="ar">أين يقف المشروع الآن؟</span> *</span></div>
+        <div class="opts" role="radiogroup">
+          <label class="opt"><input type="radio" name="status" value="empty" required><span><span lang="en">Empty space, no design yet</span><span lang="ar">مساحة فارغة دون تصميم</span></span></label>
+          <label class="opt"><input type="radio" name="status" value="moodboard"><span><span lang="en">I have references / a moodboard</span><span lang="ar">لديّ صور مرجعية / لوحة إلهام</span></span></label>
+          <label class="opt"><input type="radio" name="status" value="layout"><span><span lang="en">I have a layout or design</span><span lang="ar">لديّ توزيع أو تصميم</span></span></label>
+          <label class="opt"><input type="radio" name="status" value="3d"><span><span lang="en">I have 3D, but no working drawings</span><span lang="ar">لديّ 3D دون مخططات تنفيذية</span></span></label>
+          <label class="opt"><input type="radio" name="status" value="construction"><span><span lang="en">Under construction / finishing</span><span lang="ar">تحت الإنشاء / التشطيب</span></span></label>
+        </div>
+        <div class="row2" style="margin-top:8px">
+          <label class="f" for="area"><span><span lang="en">Approximate area (m²)</span><span lang="ar">المساحة التقريبية (م²)</span></span><input id="area" name="area" type="number" min="0" inputmode="numeric"></label>
+          <label class="f" for="spaces"><span><span lang="en">Number of rooms / spaces to design</span><span lang="ar">عدد الغرف / الفراغات المطلوب تصميمها</span></span><input id="spaces" name="spaces" type="number" min="0" inputmode="numeric"></label>
+        </div>
+        <label class="f" for="plocation"><span><span lang="en">Project location (city / compound)</span><span lang="ar">موقع المشروع (المدينة / الكمبوند)</span> *</span><input id="plocation" name="plocation" type="text" required></label>
+      </fieldset>
+
+      <!-- STEP 3 -->
+      <fieldset data-step="3" hidden>
+        <legend><span lang="en">What do you need?</span><span lang="ar">ما الذي تحتاجه؟</span></legend>
+        <p class="note"><span lang="en">Choose all that apply. Not sure? Leave it to us: we'll recommend.</span><span lang="ar">اختر كل ما ينطبق. لست متأكدًا؟ اترك الأمر لنا وسنرشّح لك.</span></p>
+        <div class="opts">
+          <label class="opt"><input type="checkbox" name="svc" value="Consultation"><span><span lang="en">Design consultation</span><span lang="ar">استشارة تصميم</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Review L1 Style"><span><span lang="en">Review · Style coherence</span><span lang="ar">مراجعة · اتساق الطابع</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Review L2 Layout"><span><span lang="en">Review · Layout &amp; function</span><span lang="ar">مراجعة · التوزيع والوظيفة</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Review L3 Full report"><span><span lang="en">Review · Full report</span><span lang="ar">مراجعة · تقرير متكامل</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Concept & moodboard"><span><span lang="en">Concept &amp; moodboard</span><span lang="ar">الفكرة ولوحة الإلهام</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Full interior design"><span><span lang="en">Full interior design</span><span lang="ar">تصميم داخلي متكامل</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Working drawings"><span><span lang="en">Working drawings</span><span lang="ar">مخططات تنفيذية</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Landscape"><span><span lang="en">Landscape / rooftop</span><span lang="ar">مساحات خارجية / سطح</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Partner: engineering"><span><span lang="en">Engineering (partner)</span><span lang="ar">خدمات هندسية (شريك)</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Partner: visualization"><span><span lang="en">Visualization / exhibition (partner)</span><span lang="ar">إظهار / معارض (شريك)</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Partner: creative"><span><span lang="en">Branding / campaigns (partner)</span><span lang="ar">هوية / حملات (شريك)</span></span></label>
+          <label class="opt"><input type="checkbox" name="svc" value="Partner: off-plan"><span><span lang="en">Off-plan presentation (partner)</span><span lang="ar">عرض على الخارطة (شريك)</span></span></label>
+        </div>
+      </fieldset>
+
+      <!-- STEP 4 -->
+      <fieldset data-step="4" hidden>
+        <legend><span lang="en">Life &amp; style</span><span lang="ar">الحياة والطابع</span></legend>
+        <div class="row2">
+          <label class="f" for="household"><span><span lang="en">Who will use the space?</span><span lang="ar">من سيستخدم المساحة؟</span></span><input id="household" name="household" type="text" placeholder="e.g. 2 adults, 2 children"></label>
+          <label class="f" for="guests"><span><span lang="en">How often do you host guests?</span><span lang="ar">كم مرة تستقبل ضيوفًا؟</span></span>
+            <select id="guests" name="guests"><option value=""></option><option>Rarely</option><option>Monthly</option><option>Weekly</option><option>Very often (majlis needed)</option></select></label>
+        </div>
+        <div class="f"><span><span lang="en">Which direction feels closest? (up to 2)</span><span lang="ar">أي اتجاه هو الأقرب إليك؟ (حتى اختيارين)</span></span></div>
+        <div class="styles" id="styles">
+          <label class="style-card"><input type="checkbox" name="style" value="Japandi / natural"><span class="box"><img src="assets/img/mena51-kitchen.webp" alt="" loading="lazy"><span class="t"><span lang="en">Japandi · natural</span><span lang="ar">ياباني إسكندنافي · طبيعي</span></span></span></label>
+          <label class="style-card"><input type="checkbox" name="style" value="Warm minimal"><span class="box"><img src="assets/img/yasmin-kids-twin.webp" alt="" loading="lazy"><span class="t"><span lang="en">Warm minimal</span><span lang="ar">بسيط دافئ</span></span></span></label>
+          <label class="style-card"><input type="checkbox" name="style" value="Soft contemporary"><span class="box"><img src="assets/img/mena51-living.webp" alt="" loading="lazy"><span class="t"><span lang="en">Soft contemporary</span><span lang="ar">معاصر ناعم</span></span></span></label>
+          <label class="style-card"><input type="checkbox" name="style" value="Arabic / majlis heritage"><span class="box"><img src="assets/img/stone-majlis.webp" alt="" loading="lazy"><span class="t"><span lang="en">Arabic heritage</span><span lang="ar">طابع عربي تراثي</span></span></span></label>
+          <label class="style-card"><input type="checkbox" name="style" value="Bold modern"><span class="box"><img src="assets/img/landmark901-kitchen-v.webp" alt="" loading="lazy"><span class="t"><span lang="en">Bold modern</span><span lang="ar">عصري جريء</span></span></span></label>
+          <label class="style-card"><input type="checkbox" name="style" value="Playful / colour"><span class="box"><img src="assets/img/mena28-bedroom.webp" alt="" loading="lazy"><span class="t"><span lang="en">Playful · colour</span><span lang="ar">مرح · ألوان</span></span></span></label>
+        </div>
+        <div class="f" style="margin-top:8px"><span><span lang="en">How clear is your vision?</span><span lang="ar">ما مدى وضوح رؤيتك؟</span></span></div>
+        <div class="scale" role="radiogroup" aria-label="Vision clarity, 1 to 5">
+          <label class="opt"><input type="radio" name="clarity" value="1"><span>1</span></label>
+          <label class="opt"><input type="radio" name="clarity" value="2"><span>2</span></label>
+          <label class="opt"><input type="radio" name="clarity" value="3"><span>3</span></label>
+          <label class="opt"><input type="radio" name="clarity" value="4"><span>4</span></label>
+          <label class="opt"><input type="radio" name="clarity" value="5"><span>5</span></label>
+        </div>
+        <p class="note"><span lang="en">1 = I need direction from the start · 5 = I know exactly what I want</span><span lang="ar">1 = أحتاج إلى توجيه من البداية · 5 = أعرف ما أريده بالضبط</span></p>
+      </fieldset>
+
+      <!-- STEP 5 -->
+      <fieldset data-step="5" hidden>
+        <legend><span lang="en">Budget &amp; timing</span><span lang="ar">الميزانية والتوقيت</span></legend>
+        <div class="row2">
+          <label class="f" for="currency"><span><span lang="en">Currency</span><span lang="ar">العملة</span></span>
+            <select id="currency" name="currency"><option>SAR</option><option>AED</option><option>QAR</option><option>EGP</option><option>USD</option></select></label>
+          <label class="f" for="budget"><span><span lang="en">Approximate execution budget (finishing + furniture)</span><span lang="ar">ميزانية التنفيذ التقريبية (تشطيب + أثاث)</span></span><input id="budget" name="budget" type="text" placeholder="e.g. 350,000"></label>
+        </div>
+        <div class="row2">
+          <label class="f" for="start"><span><span lang="en">When should execution start?</span><span lang="ar">متى يبدأ التنفيذ؟</span></span>
+            <select id="start" name="start"><option value=""></option><option>Within 1 month</option><option>1–3 months</option><option>3–6 months</option><option>Later / not decided</option></select></label>
+          <label class="f" for="files"><span><span lang="en">Link to plans / photos (Drive, WeTransfer…)</span><span lang="ar">رابط المخططات / الصور (Drive، WeTransfer…)</span></span><input id="files" name="files" type="url" placeholder="https://"></label>
+        </div>
+        <label class="f" for="notes"><span><span lang="en">Anything else we should know?</span><span lang="ar">هل هناك ما تودّ إضافته؟</span></span><textarea id="notes" name="notes"></textarea></label>
+        <p class="note"><span lang="en">Please don't share confidential drawings publicly; a private link is enough. We'll ask for files after we talk.</span><span lang="ar">يكفي رابط خاص للملفات، وسنطلب المزيد بعد مكالمتنا.</span></p>
+      </fieldset>
+
+      <!-- STEP 6 -->
+      <fieldset data-step="6" hidden>
+        <legend><span lang="en">Review &amp; send</span><span lang="ar">المراجعة والإرسال</span></legend>
+        <div class="reco" id="reco"></div>
+        <div class="summary" id="summary"></div>
+        <label class="opt" style="max-width:none"><input type="checkbox" id="consent" required><span><span lang="en">I agree that 2AS may contact me about this project by email or WhatsApp.</span><span lang="ar">أوافق على تواصل 2AS معي بخصوص المشروع عبر البريد أو واتساب.</span></span></label>
+      </fieldset>
+
+      <div id="done" hidden style="display:grid;gap:16px">
+        <h2><span lang="en">Thank you. Your brief is with us.</span><span lang="ar">شكرًا لك، وصلنا استبيانك.</span></h2>
+        <p class="lead"><span lang="en">We'll review it and contact you within 2 working days to arrange a short introductory call.</span><span lang="ar">سنراجعه ونتواصل معك خلال يومي عمل لترتيب مكالمة تعارف قصيرة.</span></p>
+        <div><a class="btn" id="wa-done" href="#" target="_blank" rel="noopener"><span lang="en">Continue on WhatsApp</span><span lang="ar">تابِع عبر واتساب</span></a></div>
+      </div>
+
+      <p class="err" id="err" role="alert"></p>
+      <div class="form-nav" id="form-nav">
+        <button type="button" class="btn ghost" id="prev"><span lang="en">Back</span><span lang="ar">السابق</span></button>
+        <button type="button" class="btn" id="next"><span lang="en">Continue</span><span lang="ar">التالي</span></button>
+        <button type="submit" class="btn" id="send" hidden><span lang="en">Send brief</span><span lang="ar">إرسال الاستبيان</span></button>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+<footer id="site-foot"></footer>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/brief.js"></script>
+</body>
+</html>
