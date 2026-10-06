@@ -30,7 +30,7 @@ window.TWOAS = {
     head.innerHTML =
       '<div class="wrap">' +
         '<a class="brand" href="index.html" aria-label="2AS Design Consultancy, home">' +
-          '<img src="assets/logo/2AS_mark_charcoal.svg" alt="" width="34" height="44">' +
+          '<img src="2AS_mark_charcoal.svg" alt="" width="34" height="44">' +
           '<span><b>2AS</b><small>DESIGN CONSULTANCY</small></span></a>' +
         '<nav class="nav" id="nav" aria-label="Main">' +
           nav.map(function (n) {
@@ -53,7 +53,7 @@ window.TWOAS = {
       '<div class="wrap">' +
         '<div class="cols">' +
           '<div style="display:grid;gap:14px">' +
-            '<img src="assets/logo/2AS_full_gold.svg" alt="2AS Design Consultancy" style="width:150px;height:auto">' +
+            '<img src="2AS_full_gold.svg" alt="2AS Design Consultancy" style="width:150px;height:auto">' +
             '<p>' + t("We bring professional judgement to design. Online, across Saudi Arabia, the GCC and Egypt.",
                       "نُضيف إلى التصميم حُكمًا مهنيًا. عن بُعد، في السعودية والخليج ومصر.") + '</p>' +
           '</div>' +
