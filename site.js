@@ -18,6 +18,7 @@ window.TWOAS = {
 
   var nav = [
     ["index.html#services", "Services", "الخدمات", "home"],
+    ["approach.html", "Approach", "المنهجية", "approach"],
     ["review.html", "The 2AS Review", "مراجعة 2AS", "review"],
     ["index.html#work", "Experience", "الخبرة", "work"],
     ["partners.html", "Network", "الشركاء", "partners"],

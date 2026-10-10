@@ -89,7 +89,7 @@
     ["name", "Name", "الاسم"], ["email", "Email", "البريد"], ["phone", "WhatsApp", "واتساب"], ["country", "Lives in", "مكان الإقامة"],
     ["ptype", "Property", "العقار"], ["status", "Stage", "المرحلة"], ["area", "Area (m²)", "المساحة (م²)"], ["spaces", "Rooms / spaces", "الغرف / الفراغات"],
     ["plocation", "Project location", "موقع المشروع"], ["svc", "Services selected", "الخدمات المختارة"], ["household", "Users", "المستخدمون"],
-    ["guests", "Guests", "الضيوف"], ["style", "Style", "الطابع"], ["clarity", "Vision clarity (1–5)", "وضوح الرؤية (1–5)"],
+    ["guests", "Guests", "الضيوف"], ["style", "Style", "الطابع"], ["clarity", "Vision clarity (1–5)", "وضوح الرؤية (1–5)"], ["sens", "Sensitivities", "الحساسيات"], ["feel", "Desired feel", "الإحساس المطلوب"],
     ["budget", "Budget", "الميزانية"], ["start", "Execution start", "بدء التنفيذ"], ["files", "Files", "الملفات"], ["notes", "Notes", "ملاحظات"]
   ];
   var statusNames = { empty: "Empty space", moodboard: "References / moodboard", layout: "Has a layout or design", "3d": "Has 3D, no drawings", construction: "Under construction" };

@@ -223,3 +223,5 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--brushed);outline
 @media (max-width:620px){.summary dl{grid-template-columns:1fr}.summary dt{margin-top:8px}}
 .reco{border-inline-start:2px solid var(--champ);padding:14px 18px;background:var(--off);display:grid;gap:6px}
 .note{font-size:13.5px;color:var(--grey)}
+
+.tbl.fit{min-width:0}
